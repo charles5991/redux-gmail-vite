@@ -1,0 +1,100 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+a {
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+html,
+body,
+#root,
+#gmap {
+  height: 100%;
+  padding: 0;
+}
+
+#root {
+  position: relative;
+}
+
+hr {
+  margin: .5rem 0;
+  color: inherit;
+  border: 0;
+  border-top: 1px solid;
+  opacity: .25;
+}
+
+fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.fw700 {
+  font-weight: 700;
+}
+
+.pre-wrap {
+  white-space: pre-wrap;
+}
+
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.cardTools {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000001;
+  margin: 9px;
+  max-height: calc(100vh - 22px) !important;
+}
+
+#infowindow-content,
+.collapseList.MuiCollapse-hidden {
+  display: none;
+}
+
+#gmap #infowindow-content {
+  display: inline-block;
+}
+
+.pac-item {
+  cursor: pointer;
+}
+
+.collapseList.MuiCollapse-entered {
+  overflow-y: auto !important;
+  min-height: 90px !important;
+  max-height: calc(100vh - 270px) !important;
+}
+
+.empty-info {
+  height: 90px;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="search" i]::-webkit-search-cancel-button {
+  opacity: 1;
+  cursor: pointer;
+}
