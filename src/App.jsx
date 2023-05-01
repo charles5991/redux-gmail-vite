@@ -225,7 +225,7 @@ function App(props) {
 
       <Gmap
         params={{
-          key: "AIzaSyDSKsr1WK1DcCmD49tsJ1nZMgKT8RJC9EE",
+          key: "AIzaSyCuXQfvREHBqFvVpVhNAKoaFtLQLMTsxqM",
           libraries: "places",
           v: "weekly",
         }}
